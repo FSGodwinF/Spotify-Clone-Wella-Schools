@@ -1,0 +1,61 @@
+*{
+font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar {
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: white;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+.bg-color{
+    background-color: rgb(255, 183, 93);
+}
+.zone-44{
+    background-color: rgb(205, 245, 99) ;
+    color: rgb(0, 0, 0);
+}
+.vertical-text{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.gap-reduce{
+    margin-left: -2rem;
+}
+.dark-bg{
+    background-color: rgb(0, 0, 0);
+}
+.custom-group{
+    border-bottom: 2px solid rgb(143, 143, 143);
+}
+.custom-input::placeholder{
+    color: rgb(143, 143, 143);
+}
+.custom-input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.custom-button{
+    color: rgb(143, 143, 143);
+}
+.custom-button:hover{
+    color: beige;
+}
+.custom-gap{
+    gap: 7rem;
+}
+.custom-sup{
+    top: -1.2rem;
+    font-size: 0.7rem;
+    left: 1.5rem;
+}
+.fs-7{
+    font-size: 0.8rem;
+}
+
